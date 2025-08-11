@@ -32,6 +32,9 @@ int main()
     // Dynamically allocate 2D array
     int** arr = new int*[n];
 
+    // For Method - 2 :-
+    // int arr[100][100]; max size 100x100
+
     for(int i = 0; i < n; i++)
     {
         for(int j = 0; j < n; j++)
@@ -41,6 +44,9 @@ int main()
     }
 
     twoDimensional(arr, n);
+
+    // For Method - 2 :-
+    // twoDimensional(&arr[0][0], n);
 
     // Free memory
     for(int i = 0; i < n; i++) {
