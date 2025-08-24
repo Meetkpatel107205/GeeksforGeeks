@@ -29,3 +29,6 @@ public class nextLine_and_next {
         getInput();
     }
 }
+
+// When we use sc.nextInt(), it only reads the integer but doesn’t consume the newline (\n) left in the buffer.
+// So, if we directly call sc.nextLine() after it, the first call will just consume that empty newline, and we won’t get the actual input string.
