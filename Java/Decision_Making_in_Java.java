@@ -32,5 +32,7 @@ public class Decision_Making_in_Java
         m = sc.nextInt();
 
         System.out.println("Relation Between Number " + n + " and Number " + m + " is : " + compareNM(n, m));
+
+        sc.close();
     }    
 }

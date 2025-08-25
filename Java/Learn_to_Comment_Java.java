@@ -16,5 +16,7 @@ public class Learn_to_Comment_Java
         System.out.println(b);
         // Prints c
         System.out.println(c);
+
+        sc.close();
     }
 }

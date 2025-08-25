@@ -23,5 +23,7 @@ public class Taking_Input_Java
         System.out.println(longVal);
         System.out.println(byteVal);
         System.out.println(stringVal);
+
+        sc.close();
     }   
 }

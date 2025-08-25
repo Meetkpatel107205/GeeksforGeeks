@@ -41,5 +41,7 @@ public class Convert_String_to_LowerCase
         String str = sc.nextLine();
 
         System.out.println(toLower(str));
+
+        sc.close();
     }    
 }
