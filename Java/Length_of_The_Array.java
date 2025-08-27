@@ -2,7 +2,7 @@
 package Java;
 import java.util.*;
 
-class Solution {
+public class Length_of_The_Array {
     public static int arrayLength(int[] arr) {
         // Return the length of the array
         return arr.length;
