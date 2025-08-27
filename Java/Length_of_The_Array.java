@@ -22,5 +22,7 @@ class Solution {
         
         int length = arrayLength(arr);
         System.out.println("Length of the array: " + length);
+
+        sc.close();
     }
 }
