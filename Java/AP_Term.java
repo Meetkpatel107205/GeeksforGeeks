@@ -29,5 +29,7 @@ public class AP_Term {
         int nthTerm = sol.apTerm(a, d, n);
         
         System.out.println("The " + n + "th term of A.P. is: " + nthTerm);
+
+        sc.close();
     }
 }
